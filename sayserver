@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Listening on $(ipconfig getifaddr en1):2121
+say `nc -l 2121`
