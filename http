@@ -1,2 +1,2 @@
 cd $(pwd)
-python -m SimpleHTTPServer 8081
+python -m SimpleHTTPServer 8080
