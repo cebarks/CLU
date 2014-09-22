@@ -1,2 +1,2 @@
 #!/bin/bash
-$EDITOR ~/.bash_profile
+$EDITOR ~/.zshrc
