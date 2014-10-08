@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -vv -sS -p1-65535 --min-rate 100000 -O -A -sV $@
+sudo nmap -vv -sS -p1-65535 --min-rate 10000 -O -A -sV $@
