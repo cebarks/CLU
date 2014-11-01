@@ -1,0 +1,3 @@
+rand() { echo $(( $RANDOM % $2 + $1 )); }
+
+rbn() { serv=$(rand 1 9); echo $serv; parallel -S cm$serv --onall; }
