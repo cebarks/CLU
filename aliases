@@ -7,3 +7,5 @@ alias bn="parallel -S cm1,cm2,cm3,cm4,cm5,cm6,cm7,cm8,cm9 --onall"
 alias fernflower="`which java` -jar ~/bin/lib/fernflower.jar"
 
 alias jdcli="`which java` -jar ~/bin/lib/jd-cli.jar"
+
+alias full-nmap="sudo nmap -vv -sS -p1-65535 --min-rate 10000 -O -A -sV"
